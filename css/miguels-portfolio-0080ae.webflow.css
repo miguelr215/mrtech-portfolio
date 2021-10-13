@@ -2461,6 +2461,10 @@
   transition: all 2s ease-in-out;
 }
 
+.skills_container:last-child {
+  margin-bottom: 20px;
+}
+
 .skill_header {
   width: 100%;
   margin-bottom: 25px;
@@ -3759,6 +3763,10 @@ figcaption {
   cursor: none;
 }
 
+.dark-link:hover {
+  color: #3f2b96;
+}
+
 .button-line {
   position: relative;
   color: #fff;
@@ -3977,7 +3985,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 16px;
+  height: 32px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -4275,7 +4283,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  height: 19px;
+  height: 32px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
