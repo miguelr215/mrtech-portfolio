@@ -2450,6 +2450,46 @@
   background-color: #ffdede;
 }
 
+.skills_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 55px;
+  opacity: 0;
+  transform: scale3d(.02, .02, .02);
+  transition: all 2s ease-in-out;
+}
+
+.skill_header {
+  width: 100%;
+  margin-bottom: 25px;
+  text-align: center;
+  opacity: 0;
+  transform: scale3d(.02, .02, .02);
+  transition: all 2s ease-in-out;
+}
+
+.skill_header.isVisible,
+.skills_container.isVisible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.skill {
+  width: 75px;
+  margin: 0 20px 30px 0;
+  text-align: center;
+}
+
+.skill_img {
+  width: 100%;
+}
+
+.skill_title {
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 767px) {
   .w-commerce-commercelayoutcontainer {
     -webkit-box-orient: vertical;
@@ -3415,6 +3455,14 @@ figcaption {
   font-size: 45px;
   line-height: 50px;
   text-transform: uppercase;
+  opacity: 0;
+  transform: translateX(-200px);
+  transition: all 1s ease-out;
+}
+
+.title-2.isVisible {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .caption {
