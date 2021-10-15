@@ -3321,6 +3321,10 @@ figcaption {
   font-size: 10rem;
 }
 
+.title-1.x3 {
+  font-size: 6rem;
+}
+
 .light-gray-2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4037,6 +4041,11 @@ figcaption {
 .close-text {
   position: absolute;
   opacity: 0;
+}
+
+.close-text:hover,
+.menu-text:hover {
+  color: #ff8c00;
 }
 
 .cart-quantity {
@@ -5301,6 +5310,10 @@ figcaption {
     font-size: 7rem;
   }
 
+  .title-1.x3 {
+    font-size: 4rem;
+  }
+
   .light-gray-2 {
     width: 33.3333%;
   }
@@ -5817,6 +5830,10 @@ figcaption {
 
   .title-1.x2 {
     font-size: 5rem;
+  }
+
+  .title-1.x3 {
+    font-size: 2rem;
   }
 
   .light-gray-2 {
