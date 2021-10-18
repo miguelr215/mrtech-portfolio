@@ -2494,6 +2494,19 @@
   margin-top: 10px;
 }
 
+.project-link {
+  text-decoration: none;
+  color: cornflowerblue;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+}
+
+.project-link:hover {
+  color: #ff8c00;
+  border-bottom: 1px solid cornflowerblue;
+  cursor: none;
+}
+
 @media screen and (max-width: 767px) {
   .w-commerce-commercelayoutcontainer {
     -webkit-box-orient: vertical;
