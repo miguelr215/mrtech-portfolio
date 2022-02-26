@@ -2457,7 +2457,7 @@
   justify-content: space-around;
   margin-bottom: 55px;
   opacity: 0;
-  transform: scale3d(.02, .02, .02);
+  transform: scale3d(0.02, 0.02, 0.02);
   transition: all 2s ease-in-out;
 }
 
@@ -2470,7 +2470,7 @@
   margin-bottom: 25px;
   text-align: center;
   opacity: 0;
-  transform: scale3d(.02, .02, .02);
+  transform: scale3d(0.02, 0.02, 0.02);
   transition: all 2s ease-in-out;
 }
 
@@ -3222,7 +3222,8 @@ figcaption {
   padding: 10px;
   border-style: solid;
   border-width: 1px;
-  border-color: hsla(0, 0%, 100%, 0.3) hsla(0, 0%, 100%, 0.3) hsla(0, 0%, 100%, 0.2);
+  border-color: hsla(0, 0%, 100%, 0.3) hsla(0, 0%, 100%, 0.3)
+    hsla(0, 0%, 100%, 0.2);
   border-radius: 2px;
   background-color: #171717;
 }
@@ -3308,14 +3309,20 @@ figcaption {
   margin-top: 0px;
   margin-bottom: 0px;
   font-size: 12rem;
-  line-height: .9;
+  line-height: 0.9;
   font-weight: 600;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
 
 .title-1.gradient-1 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff4b1f), to(#ff9068));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff4b1f),
+    to(#ff9068)
+  );
   background-image: linear-gradient(90deg, #ff4b1f, #ff9068);
   -webkit-background-clip: text;
   background-clip: text;
@@ -3323,7 +3330,13 @@ figcaption {
 }
 
 .title-1.gradient-2 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#a8ff78), to(#78ffd6));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#a8ff78),
+    to(#78ffd6)
+  );
   background-image: linear-gradient(90deg, #a8ff78, #78ffd6);
   -webkit-background-clip: text;
   background-clip: text;
@@ -4194,7 +4207,8 @@ figcaption {
   max-width: 580px;
   border-style: solid;
   border-width: 1px;
-  border-color: hsla(0, 0%, 100%, 0.15) hsla(0, 0%, 100%, 0.11) hsla(0, 0%, 100%, 0.11);
+  border-color: hsla(0, 0%, 100%, 0.15) hsla(0, 0%, 100%, 0.11)
+    hsla(0, 0%, 100%, 0.11);
   background-color: #171717;
   box-shadow: none;
 }
@@ -4268,7 +4282,13 @@ figcaption {
 }
 
 .nav-text.gradient-3 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff8c00), to(#ff0080));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ff8c00),
+    to(#ff0080)
+  );
   background-image: linear-gradient(90deg, #ff8c00, #ff0080);
   -webkit-background-clip: text;
   background-clip: text;
@@ -4276,7 +4296,13 @@ figcaption {
 }
 
 .nav-text.gradient-4 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#11998e),
+    to(#38ef7d)
+  );
   background-image: linear-gradient(90deg, #11998e, #38ef7d);
   -webkit-background-clip: text;
   background-clip: text;
@@ -4284,7 +4310,13 @@ figcaption {
 }
 
 .nav-text.gradient-5 {
-  background-image: -webkit-gradient(linear, left top, right top, from(#cac531), to(#f3f9a7));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#cac531),
+    to(#f3f9a7)
+  );
   background-image: linear-gradient(90deg, #cac531, #f3f9a7);
   -webkit-background-clip: text;
   background-clip: text;
@@ -4292,7 +4324,13 @@ figcaption {
 }
 
 .nav-text.gradient-6 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ff4b1f), to(#ff9068));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ff4b1f),
+    to(#ff9068)
+  );
   background-image: linear-gradient(180deg, #ff4b1f, #ff9068);
   -webkit-background-clip: text;
   background-clip: text;
@@ -4446,7 +4484,7 @@ figcaption {
   display: inline-block;
   padding-top: 2px;
   padding-right: 22px;
-  background-image: url('../images/icons8-shift-down-128_1icons8-shift-down-128.png');
+  background-image: url("../images/icons8-shift-down-128_1icons8-shift-down-128.png");
   background-position: 100% 50%;
   background-size: 20px;
   background-repeat: no-repeat;
@@ -4460,7 +4498,7 @@ figcaption {
 }
 
 .scroll-down.go-top {
-  background-image: url('../images/icons8-shift-down-128_2icons8-shift-down-128.png');
+  background-image: url("../images/icons8-shift-down-128_2icons8-shift-down-128.png");
 }
 
 .photo {
@@ -4507,6 +4545,11 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.contactLink {
+  text-decoration: none;
+  color: #000000;
 }
 
 .italic-text {
@@ -5052,8 +5095,18 @@ figcaption {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), to(hsla(0, 0%, 9%, 0.5)));
-  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 9%, 0.5));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(hsla(0, 0%, 100%, 0)),
+    to(hsla(0, 0%, 9%, 0.5))
+  );
+  background-image: linear-gradient(
+    180deg,
+    hsla(0, 0%, 100%, 0),
+    hsla(0, 0%, 9%, 0.5)
+  );
   text-align: center;
 }
 
@@ -6296,56 +6349,56 @@ figcaption {
 }
 
 @font-face {
-  font-family: 'Clashdisplay';
-  src: url('../fonts/ClashDisplay-Medium.ttf') format('truetype');
+  font-family: "Clashdisplay";
+  src: url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Clashdisplay';
-  src: url('../fonts/ClashDisplay-Extralight.ttf') format('truetype');
+  font-family: "Clashdisplay";
+  src: url("../fonts/ClashDisplay-Extralight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Clashdisplay';
-  src: url('../fonts/ClashDisplay-Regular.ttf') format('truetype');
+  font-family: "Clashdisplay";
+  src: url("../fonts/ClashDisplay-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Clashdisplay';
-  src: url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
+  font-family: "Clashdisplay";
+  src: url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Clashdisplay';
-  src: url('../fonts/ClashDisplay-Light.ttf') format('truetype');
+  font-family: "Clashdisplay";
+  src: url("../fonts/ClashDisplay-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Clashdisplay variable';
-  src: url('../fonts/ClashDisplay-Variable.ttf') format('truetype');
+  font-family: "Clashdisplay variable";
+  src: url("../fonts/ClashDisplay-Variable.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Clashdisplay';
-  src: url('../fonts/ClashDisplay-Bold.ttf') format('truetype');
+  font-family: "Clashdisplay";
+  src: url("../fonts/ClashDisplay-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
