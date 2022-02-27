@@ -5828,6 +5828,10 @@ figcaption {
     padding-bottom: 60px;
   }
 
+  .liam-logo {
+    height: 22px;
+  }
+
   .copyright-dot {
     display: none;
   }
