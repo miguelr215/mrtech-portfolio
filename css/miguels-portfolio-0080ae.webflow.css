@@ -2532,6 +2532,16 @@
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
   }
+
+  .recommendations {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .pvs-list {
+    width: 90%;
+    margin: 10px auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4484,7 +4494,7 @@ figcaption {
   display: inline-block;
   padding-top: 2px;
   padding-right: 22px;
-  background-image: url("../images/icons8-shift-down-128_1icons8-shift-down-128.png");
+  background-image: url('../images/icons8-shift-down-128_1icons8-shift-down-128.png');
   background-position: 100% 50%;
   background-size: 20px;
   background-repeat: no-repeat;
@@ -4498,7 +4508,7 @@ figcaption {
 }
 
 .scroll-down.go-top {
-  background-image: url("../images/icons8-shift-down-128_2icons8-shift-down-128.png");
+  background-image: url('../images/icons8-shift-down-128_2icons8-shift-down-128.png');
 }
 
 .photo {
@@ -4949,6 +4959,14 @@ figcaption {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
+
+.experience-title {
+  width: 600px;
+}
+
+/* .experience-text {
+  width: 40%;
+} */
 
 .sub-title {
   margin-top: 0px;
@@ -6194,6 +6212,124 @@ figcaption {
   }
 }
 
+/* LINKEDIN RECOMMENDATIONS */
+.pvs-list {
+  width: 70%;
+  margin: 10px auto;
+  list-style: none;
+  font-size: 16px;
+}
+
+.pvs-list li {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.pvs-list span {
+  font-size: 16px;
+}
+
+.pvs-list .full-width {
+  width: 100%;
+}
+
+.pvs-list .full-height {
+  height: 100%;
+}
+
+.pvs-list .visually-hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.pvs-list .display-flex {
+  display: flex;
+}
+
+.pvs-list .display-flex.flex-row {
+  flex-direction: row;
+}
+
+.pvs-list .display-flex.flex-column {
+  flex-direction: column;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.t-bold {
+  font-weight: bold;
+}
+
+.pvs-entity {
+  display: flex;
+  flex-direction: row;
+}
+
+.pvs-entity__image {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.pvs-entity__image img {
+  border-radius: 50%;
+}
+
+.optional-action-target-wrapper {
+  color: #121212;
+}
+
+.optional-action-target-wrapper > div {
+  margin-bottom: 3px;
+  font-size: 18px;
+}
+
+.optional-action-target-wrapper .mr1 > span {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.optional-action-target-wrapper .mr1 > span:hover {
+  color: royalblue;
+}
+
+.optional-action-target-wrapper .t-14 {
+  font-size: 14px;
+}
+
+.optional-action-target-wrapper .t-black--light {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 3px;
+}
+
+.fb-toggle-form-component__icon {
+  margin-right: 10px;
+}
+
+.pvs-list__outer-container .pvs-list {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+.pvs-list__outer-container .pvs-list li {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
 #w-node-_226dbaf4-4737-87ba-5616-8857ffcaa2cf-e5d84806 {
   -ms-grid-column-align: end;
   justify-self: end;
@@ -6353,56 +6489,56 @@ figcaption {
 }
 
 @font-face {
-  font-family: "Clashdisplay";
-  src: url("../fonts/ClashDisplay-Medium.ttf") format("truetype");
+  font-family: 'Clashdisplay';
+  src: url('../fonts/ClashDisplay-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Clashdisplay";
-  src: url("../fonts/ClashDisplay-Extralight.ttf") format("truetype");
+  font-family: 'Clashdisplay';
+  src: url('../fonts/ClashDisplay-Extralight.ttf') format('truetype');
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Clashdisplay";
-  src: url("../fonts/ClashDisplay-Regular.ttf") format("truetype");
+  font-family: 'Clashdisplay';
+  src: url('../fonts/ClashDisplay-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Clashdisplay";
-  src: url("../fonts/ClashDisplay-Semibold.ttf") format("truetype");
+  font-family: 'Clashdisplay';
+  src: url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Clashdisplay";
-  src: url("../fonts/ClashDisplay-Light.ttf") format("truetype");
+  font-family: 'Clashdisplay';
+  src: url('../fonts/ClashDisplay-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Clashdisplay variable";
-  src: url("../fonts/ClashDisplay-Variable.ttf") format("truetype");
+  font-family: 'Clashdisplay variable';
+  src: url('../fonts/ClashDisplay-Variable.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Clashdisplay";
-  src: url("../fonts/ClashDisplay-Bold.ttf") format("truetype");
+  font-family: 'Clashdisplay';
+  src: url('../fonts/ClashDisplay-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
